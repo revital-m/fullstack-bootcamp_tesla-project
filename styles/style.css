@@ -153,9 +153,51 @@ header p {
   font-family: GothamSSm-Medium_Web;
 }
 /************************************* Footer *************************************/
-/* .arrow {
+.page1__footer {
+  margin-top: 120px;
+  margin-left: 467px;
+}
+
+.page1__footer li {
+  float: left;
+  overflow: auto;
+  text-align: center;
+  padding: 20px 17px;
+}
+
+.page1__footer li h3 {
+  padding: 3px 11px;
+  font-size: 30px;
+}
+
+.page1__footer li p {
+  font-size: 11px;
+}
+
+.page1__footer a {
+  display: inline-block;
+  text-decoration: none;
+  border: #fff;
+  padding: 15px 37px;
+  font-size: 12px;
+  border: 3px solid #fff;
+  border-radius: 25px;
+}
+
+.page1__footer a:hover {
+  display: inline-block;
+  text-decoration: none;
+  border: 3px solid #fff;
   color: #171a20;
-} */
+  background: #fff;
+  border-radius: 25px;
+}
+
+.arrow {
+  text-align: center;
+  font-size: 30px;
+  font-family: GothamSSm-Light_Web;
+}
 
 /******************************************************** Page 2 ********************************************************/
 /******************************************************** Page 3 ********************************************************/
