@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+}
+
+@font-face {
+  font-family: GothamSSm-Bold_Web;
+  src: url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Bold_Web.woff2");
+}
+@font-face {
+  font-family: GothamSSm-Medium_Web;
+  src: url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Medium_Web.woff2");
+}
+
+.font {
+  color: #fff;
+  font-family: GothamSSm-Medium_Web;
+}
+
+/******************************************************** Page 1 ********************************************************/
+.page1 {
+  background: url("../assets/img/M3-Hero-LHD-US-D_smaller.jfif") no-repeat
+    center center/cover;
+  width: 100vw;
+  height: 109vh;
+}
+
+/************************************* Navbar *************************************/
+.page1__logo {
+  width: 123px;
+  height: 18px;
+  float: left;
+  margin: 20px 44px;
+}
+
+.tds-icon {
+  --tds-icon--cancel-margin: calc(var(--tds-icon--size) / -5);
+  --tds-icon--fill: var(--tds-color--secondary, #fff);
+  --tds-icon--stroke: var(--tds-color--secondary, #171a20);
+  background: var(--tds-icon--bg);
+  block-size: var(--tds-icon--size);
+  content: "";
+  display: block;
+  inline-size: var(--tds-icon--size);
+  max-width: 100%;
+  min-block-size: var(--tds-icon--size);
+  min-inline-size: var(--tds-icon--size);
+  overflow: hidden;
+  text-indent: -9999 px;
+}
+
+.page1__centerMenu {
+  float: left;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.page1__rightMenu {
+  float: right;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.page1__centerMenu ul {
+  padding-left: 235px;
+}
+
+.page1__rightMenu ul {
+  padding-right: 19px;
+}
+
+.page1__centerMenu li,
+.page1__rightMenu li {
+  float: left;
+  overflow: auto;
+}
+
+.page1__centerMenu li a,
+.page1__rightMenu li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px;
+  margin: 8px;
+  text-align: center;
+}
+
+.page1__centerMenu li a:hover,
+.page1__rightMenu li a:hover {
+  border: rgba(170, 170, 170, 0.562);
+  border-radius: 10px;
+  background: rgba(170, 170, 170, 0.562);
+  cursor: pointer;
+}
+
+/************************************* Heaader *************************************/
+header p {
+  text-align: center;
+  margin-top: 53px;
+  font-size: 39px;
+}
+
+/************************************* Side Menu *************************************/
+.page1__sideMenu {
+}
+
+/************************************* Footer *************************************/
+.arrow {
+  color: #171a20;
+}
+
+/******************************************************** Page 2 ********************************************************/
+/******************************************************** Page 3 ********************************************************/
