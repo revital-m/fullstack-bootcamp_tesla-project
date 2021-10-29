@@ -17,6 +17,11 @@
   src: url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Medium_Web.woff2");
 }
 
+@font-face {
+  font-family: GothamSSm-Light_Web;
+  src: url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Light_Web.woff2");
+}
+
 .font {
   color: #fff;
   font-family: GothamSSm-Medium_Web;
@@ -106,12 +111,51 @@ header p {
 
 /************************************* Side Menu *************************************/
 .page1__sideMenu {
+  position: sticky;
+  top: 230px;
+  margin-left: 10px;
 }
 
-/************************************* Footer *************************************/
-.arrow {
-  color: #171a20;
+.page1__sideMenu li {
+  list-style: none;
+  /* color: #fff; */
 }
+
+.page1__sideMenu li a {
+  color: transparent;
+}
+
+.page1__sideMenu li a:hover {
+  border: transparent;
+  background: transparent;
+  cursor: pointer;
+  color: #fff;
+}
+
+.page1__sideMenu--symbol {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 5px;
+  font-size: 24px;
+  font-weight: lighter;
+  font-family: GothamSSm-Light_Web;
+  color: #56606c;
+}
+
+.page1__sideMenu--current {
+  color: #fff;
+}
+
+.page1__sideMenu--word {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: GothamSSm-Medium_Web;
+}
+/************************************* Footer *************************************/
+/* .arrow {
+  color: #171a20;
+} */
 
 /******************************************************** Page 2 ********************************************************/
 /******************************************************** Page 3 ********************************************************/
