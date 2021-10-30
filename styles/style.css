@@ -245,39 +245,63 @@ header p {
 } */
 
 /******* right side img right info1 *******/
-/* .page2__img__info1 {
+.page2__img__info1 {
 }
 
 .page2__img__info1--wordLoction1 {
 }
 
-.page2__img__info1--lineLoction1 {
+.page2__img__info1--lineDot {
+  background: url("../assets/img/line-dot.png") no-repeat center center/cover;
+  width: 16px;
+  height: 254px;
+}
+
+/* .page2__img__info1--lineLoction1 {
 }
 
 .page2__img__info1--dotLoction1 {
 } */
 
 /******* right side img right info2 *******/
-/* .page2__img__info2 {
+.page2__img__info2 {
+  display: inline-block;
+  position: relative;
+
+  width: 221px;
+  height: 146px;
 }
 
 .page2__img__info2--wordLoction2 {
 }
 
-.page2__img__info2--lineLoction2 {
+.page2__img__info2--lineDot {
+  background: url("../assets/img/line-dot.png") no-repeat center center/cover;
+  width: 16px;
+  height: 254px;
+}
+
+/* .page2__img__info2--lineLoction2 {
 }
 
 .page2__img__info2--dotLoction2 {
 } */
 
 /******* right side img right info3 *******/
-/* .page2__img__info3 {
+.page2__img__info3 {
 }
 
 .page2__img__info3--wordLoction3 {
 }
 
-.page2__img__info3--lineLoction3 {
+.page2__img__info3--lineDot {
+  background: url("../assets/img/line-dot-upside\ down.png") no-repeat center
+    center/cover;
+  width: 16px;
+  height: 254px;
+}
+
+/* .page2__img__info3--lineLoction3 {
 }
 
 .page2__img__info3--dotLoction3 {
@@ -290,29 +314,56 @@ header p {
   float: left;
 }
 
-/************************************* Side Menu *************************************/
-.page2__sideMenu {
+/******* logo *******/
+.page2__logo {
+  width: 123px;
+  height: 18px;
+  float: left;
+  margin: 20px 44px;
+}
+
+.tds-icon2 {
+  --tds-icon--cancel-margin: calc(var(--tds-icon--size) / -5);
+  --tds-icon--fill: var(--tds-color--secondary, #171a20);
+  --tds-icon--stroke: var(--tds-color--secondary, #171a20);
+  background: var(--tds-icon--bg);
+  block-size: var(--tds-icon--size);
+  content: "";
+  display: block;
+  inline-size: var(--tds-icon--size);
+  max-width: 100%;
+  min-block-size: var(--tds-icon--size);
+  min-inline-size: var(--tds-icon--size);
+  overflow: hidden;
+  text-indent: -9999 px;
+}
+/******* Side Menu *******/
+/* .page2__info__sideMenu {
   position: sticky;
   top: 230px;
   margin-left: 10px;
+  display: inline;
+  float: left;
+  width: 10%;
+  height: 100%;
 }
 
-.page2__sideMenu li {
+.page2__info__sideMenu li {
   list-style: none;
 }
 
-.page2__sideMenu li a {
+.page2__info__sideMenu li a {
   color: transparent;
 }
 
-.page2__sideMenu li a:hover {
+.page2__info__sideMenu li a:hover {
   border: transparent;
   background: transparent;
   cursor: pointer;
-  color: #fff;
+  color: #333;
 }
 
-.page2__sideMenu--symbol {
+.page2__info__sideMenu--symbol {
   display: inline-block;
   text-decoration: none;
   padding-right: 5px;
@@ -322,14 +373,90 @@ header p {
   color: #56606c;
 }
 
-.page2__sideMenu--current {
-  color: #fff;
+.page2__info__sideMenu--current {
+  color: black;
+  font-weight: 700;
 }
 
-.page2__sideMenu--word {
+.page2__info__sideMenu--word {
   display: inline-block;
   text-decoration: none;
   font-size: 10px;
   font-family: GothamSSm-Medium_Web;
+} */
+
+/******* description *******/
+.page2__info__description {
+  float: right;
+  width: 88%;
+  height: 100%;
+  font-family: GothamSSm-Light_Web;
+}
+
+.page2__info__description h3 {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.page2__info__description h1 {
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 23px;
+}
+
+.page2__info__description p {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 18px;
+  padding-right: 38px;
+}
+
+.page2__info__rating {
+  height: 293px;
+  padding: 25px 30px;
+  margin-right: 42px;
+  background: #e2e4e4;
+  border: #e2e4e4;
+  border-radius: 30px;
+}
+
+.page2__info__rating--title {
+  font-size: 21px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.page2__info__rating__about ul {
+  float: left;
+  overflow: auto;
+  padding-bottom: 10px;
+}
+
+.page2__info__rating__about li {
+  float: left;
+  overflow: auto;
+}
+
+.page2__info__rating__about--li-1 {
+  /* width: 40%; */
+  padding-right: 80px;
+}
+
+.page2__info__rating__about li h2 {
+  font-size: 16px;
+  text-align: left;
+  /* padding-right: 70px; */
+  font-weight: 1000;
+}
+
+.page2__info__rating__about li p {
+  font-size: 10px;
+  margin-bottom: 0;
+}
+
+.page2__info__rating__about--star {
+  text-align: right;
+  font-size: 16px;
+  /* width: 50%; */
 }
 /******************************************************** Page 3 ********************************************************/
