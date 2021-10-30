@@ -527,3 +527,90 @@ header p {
 }
 
 /******************************************************** Page 3 ********************************************************/
+.page3 {
+  width: 100vw;
+  height: 109vh;
+}
+
+/************************************* upper *************************************/
+.page3__upper {
+  width: 100vw;
+  height: 61%;
+  background: url("../assets/img/lhd-performance-hero-desktop.jfif") no-repeat
+    center center/cover;
+}
+
+.page3__upper__info {
+  margin-top: 245px;
+}
+
+.page3__upper__info ul {
+  margin-top: 260px;
+  margin-left: 300px;
+}
+
+.page3__upper__info li {
+  float: left;
+  overflow: auto;
+  text-align: center;
+  padding: 20px 10px;
+  width: 26%;
+}
+
+.page3__upper__info li h3 {
+  padding: 5px 11px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.page3__upper__info li p {
+  font-size: 12.5px;
+}
+
+.speed meter {
+  float: left;
+  width: 50%;
+}
+
+.sec {
+  float: right;
+  width: 50%;
+}
+/************************************* lower *************************************/
+.page3__lower {
+  width: 100vw;
+  height: 39%;
+}
+
+.page3__lower__about {
+  float: right;
+  width: 60%;
+  height: 100%;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 60px 379px 0 0;
+  font-family: GothamSSm-Light_Web;
+}
+
+.page3__lower__info {
+  float: left;
+  width: 40%;
+  height: 100%;
+  text-align: left;
+  padding: 52px 0px 0px 274px;
+  font-family: GothamSSm-Light_Web;
+}
+
+.page3__lower__info h3 {
+  font-weight: 500;
+  font-size: 15px;
+  padding: 0px 0px 0px 30px;
+}
+
+.page3__lower__info h1 {
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 23px;
+  padding: 0px 0px 0px 30px;
+}
