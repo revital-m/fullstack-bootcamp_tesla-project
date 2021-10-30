@@ -118,7 +118,6 @@ header p {
 
 .page1__sideMenu li {
   list-style: none;
-  /* color: #fff; */
 }
 
 .page1__sideMenu li a {
@@ -193,7 +192,7 @@ header p {
   border-radius: 25px;
 }
 
-.arrow {
+.arrow--light {
   text-align: center;
   font-size: 30px;
   font-family: GothamSSm-Light_Web;
