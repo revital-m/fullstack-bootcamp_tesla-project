@@ -199,4 +199,137 @@ header p {
 }
 
 /******************************************************** Page 2 ********************************************************/
+.page2 {
+  width: 100vw;
+  height: 109vh;
+}
+
+/************************************* right side img *************************************/
+.page2__img {
+  background: #f5f5f5;
+  width: 73%;
+  height: 100%;
+  float: right;
+}
+
+/******************** right side img left ********************/
+.page2__img__left {
+  background: url(../assets/img/model_3_safety_hero-smaller.png) no-repeat
+    center/cover;
+  width: 950px;
+  height: 100%;
+  float: left;
+}
+
+/******************** right side img right ********************/
+.page2__img__right {
+  width: 171px;
+  height: 100%;
+  float: right;
+  background: #f5f5f5;
+}
+
+.page2__img__info--word {
+  font-family: GothamSSm-Medium_Web;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+/* .page2__img__info--line {
+} */
+
+/* .page2__img__info--dot {
+  font-size: 19px;
+  border: black;
+  color: white;
+} */
+
+/******* right side img right info1 *******/
+/* .page2__img__info1 {
+}
+
+.page2__img__info1--wordLoction1 {
+}
+
+.page2__img__info1--lineLoction1 {
+}
+
+.page2__img__info1--dotLoction1 {
+} */
+
+/******* right side img right info2 *******/
+/* .page2__img__info2 {
+}
+
+.page2__img__info2--wordLoction2 {
+}
+
+.page2__img__info2--lineLoction2 {
+}
+
+.page2__img__info2--dotLoction2 {
+} */
+
+/******* right side img right info3 *******/
+/* .page2__img__info3 {
+}
+
+.page2__img__info3--wordLoction3 {
+}
+
+.page2__img__info3--lineLoction3 {
+}
+
+.page2__img__info3--dotLoction3 {
+} */
+/************************************* left side info *************************************/
+.page2__info {
+  background: #fff;
+  width: 27%;
+  height: 100%;
+  float: left;
+}
+
+/************************************* Side Menu *************************************/
+.page2__sideMenu {
+  position: sticky;
+  top: 230px;
+  margin-left: 10px;
+}
+
+.page2__sideMenu li {
+  list-style: none;
+}
+
+.page2__sideMenu li a {
+  color: transparent;
+}
+
+.page2__sideMenu li a:hover {
+  border: transparent;
+  background: transparent;
+  cursor: pointer;
+  color: #fff;
+}
+
+.page2__sideMenu--symbol {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 5px;
+  font-size: 24px;
+  font-weight: lighter;
+  font-family: GothamSSm-Light_Web;
+  color: #56606c;
+}
+
+.page2__sideMenu--current {
+  color: #fff;
+}
+
+.page2__sideMenu--word {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: GothamSSm-Medium_Web;
+}
 /******************************************************** Page 3 ********************************************************/
