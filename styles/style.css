@@ -27,6 +27,9 @@
   font-family: GothamSSm-Medium_Web;
 }
 
+.pages {
+  margin-top: -339px;
+}
 /******************************************************** Page 1 ********************************************************/
 .page1 {
   background: url("../assets/img/M3-Hero-LHD-US-D_smaller.jfif") no-repeat
@@ -39,8 +42,9 @@
 .page1__logo {
   width: 123px;
   height: 18px;
-  float: left;
   margin: 20px 44px;
+  position: sticky;
+  top: 20px;
 }
 
 .tds-icon {
@@ -62,7 +66,7 @@
 .page1__centerMenu {
   float: left;
   font-size: 14px;
-  margin: 5px;
+  margin: 5px 218px;
 }
 
 .page1__rightMenu {
@@ -153,7 +157,7 @@ header p {
 }
 /************************************* Footer *************************************/
 .page1__footer {
-  margin-top: 120px;
+  margin-top: 392px;
   margin-left: 467px;
 }
 
@@ -161,7 +165,8 @@ header p {
   float: left;
   overflow: auto;
   text-align: center;
-  padding: 20px 17px;
+  padding: 17px 0px;
+  width: 17%;
 }
 
 .page1__footer li h3 {
@@ -191,6 +196,19 @@ header p {
   border-radius: 25px;
 }
 
+.speed meter {
+  float: left;
+  width: 20%;
+}
+
+.speed meter svg {
+  width: 65px;
+}
+.sec {
+  float: right;
+  width: 70%;
+}
+
 .arrow--light {
   text-align: center;
   font-size: 30px;
@@ -209,6 +227,7 @@ header p {
   width: 73%;
   height: 100%;
   float: right;
+  margin-top: -58px;
 }
 
 /******************** right side img left ********************/
@@ -325,8 +344,10 @@ header p {
 .page2__logo {
   width: 123px;
   height: 18px;
-  float: left;
+  /* float: left; */
   margin: 20px 44px;
+  position: sticky;
+  top: 20px;
 }
 
 .tds-icon2 {
@@ -344,53 +365,6 @@ header p {
   overflow: hidden;
   text-indent: -9999 px;
 }
-/******* Side Menu *******/
-/* .page2__info__sideMenu {
-  position: sticky;
-  top: 230px;
-  margin-left: 10px;
-  display: inline;
-  float: left;
-  width: 10%;
-  height: 100%;
-}
-
-.page2__info__sideMenu li {
-  list-style: none;
-}
-
-.page2__info__sideMenu li a {
-  color: transparent;
-}
-
-.page2__info__sideMenu li a:hover {
-  border: transparent;
-  background: transparent;
-  cursor: pointer;
-  color: #333;
-}
-
-.page2__info__sideMenu--symbol {
-  display: inline-block;
-  text-decoration: none;
-  padding-right: 5px;
-  font-size: 24px;
-  font-weight: lighter;
-  font-family: GothamSSm-Light_Web;
-  color: #56606c;
-}
-
-.page2__info__sideMenu--current {
-  color: black;
-  font-weight: 700;
-}
-
-.page2__info__sideMenu--word {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 10px;
-  font-family: GothamSSm-Medium_Web;
-} */
 
 /******* description *******/
 .page2__info__description {
@@ -588,15 +562,6 @@ header p {
   font-size: 12.5px;
 }
 
-.speed meter {
-  float: left;
-  width: 50%;
-}
-
-.sec {
-  float: right;
-  width: 50%;
-}
 /************************************* lower *************************************/
 .page3__lower {
   width: 100vw;
