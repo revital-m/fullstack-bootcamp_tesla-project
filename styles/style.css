@@ -220,7 +220,6 @@ header p {
   float: left;
 }
 
-/******************** right side img right ********************/
 .page2__img__right {
   width: 171px;
   height: 100%;
@@ -234,20 +233,20 @@ header p {
   font-weight: 200;
 }
 
-/* .page2__img__info--line {
-} */
-
-/* .page2__img__info--dot {
-  font-size: 19px;
-  border: black;
-  color: white;
-} */
-
 /******* right side img right info1 *******/
 .page2__img__info1 {
+  display: inline-block;
+  position: relative;
+  top: 135px;
+  left: 163px;
+  width: 221px;
+  height: 254px;
 }
 
 .page2__img__info1--wordLoction1 {
+  position: absolute;
+  top: -3px;
+  left: 15px;
 }
 
 .page2__img__info1--lineDot {
@@ -256,55 +255,64 @@ header p {
   height: 254px;
 }
 
-/* .page2__img__info1--lineLoction1 {
-}
-
-.page2__img__info1--dotLoction1 {
-} */
-
 /******* right side img right info2 *******/
 .page2__img__info2 {
   display: inline-block;
   position: relative;
-
+  top: -54px;
+  left: 209px;
   width: 221px;
   height: 146px;
 }
 
 .page2__img__info2--wordLoction2 {
+  position: absolute;
+  top: -3px;
+  left: 10px;
 }
 
 .page2__img__info2--lineDot {
   background: url("../assets/img/line-dot.png") no-repeat center center/cover;
-  width: 16px;
-  height: 254px;
+  width: 11px;
+  height: 100%;
 }
-
-/* .page2__img__info2--lineLoction2 {
-}
-
-.page2__img__info2--dotLoction2 {
-} */
 
 /******* right side img right info3 *******/
 .page2__img__info3 {
+  display: inline-block;
+  position: relative;
+  bottom: -334px;
+  left: 39px;
+  width: 221px;
+  height: 146px;
 }
 
 .page2__img__info3--wordLoction3 {
+  position: absolute;
+  bottom: -3px;
+  left: 10px;
 }
 
 .page2__img__info3--lineDot {
   background: url("../assets/img/line-dot-upside\ down.png") no-repeat center
     center/cover;
-  width: 16px;
-  height: 254px;
+  width: 11px;
+  height: 100%;
 }
 
-/* .page2__img__info3--lineLoction3 {
+/******************** right side img right ********************/
+.arrow--dark {
+  text-align: right;
+  margin-right: 47px;
+  margin-top: 21px;
+  font-size: 23px;
+  font-weight: 100;
 }
 
-.page2__img__info3--dotLoction3 {
-} */
+.arrow--dark a {
+  color: #000;
+}
+
 /************************************* left side info *************************************/
 .page2__info {
   background: #fff;
@@ -538,6 +546,19 @@ header p {
   height: 61%;
   background: url("../assets/img/lhd-performance-hero-desktop.jfif") no-repeat
     center center/cover;
+}
+
+.arrow--dark2 {
+  text-align: right;
+  margin-right: 47px;
+  margin-top: 21px;
+  font-size: 23px;
+  font-weight: 100;
+  float: right;
+}
+
+.arrow--dark2 a {
+  color: #000;
 }
 
 .page3__upper__info {
