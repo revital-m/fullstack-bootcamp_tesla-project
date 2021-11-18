@@ -196,7 +196,7 @@ header p {
   border-radius: 25px;
 }
 
-.speed meter {
+/* .speed meter {
   float: left;
   width: 20%;
 }
@@ -207,7 +207,7 @@ header p {
 .sec {
   float: right;
   width: 70%;
-}
+} */
 
 .arrow--light {
   text-align: center;
